@@ -21,29 +21,6 @@ A fully custom **USB 2.0 Full-Speed Device Stack** (Control Transfers only) for 
 - Use **logic analyzers** to debug low-level USB packets
 - Optional: Implement a **USB bootloader (DFU-style)**
 
----
-
-## 📚 Educational Value
-
-This project is perfect if you want to:
-
-- Learn **how USB works at the protocol level**
-- Master **control transfer state machines**
-- Debug and analyze USB traffic in a logic analyzer
-- Write register-level embedded firmware without relying on vendor APIs
-- Demonstrate your skill on **resumes, internships, or personal portfolios**
-
----
-
-## ⚙️ Tech Stack
-
-| Layer | Technology |
-|-------|------------|
-| MCU | STM32L433RCT6 (Cortex-M4, 256KB Flash, 64KB RAM) |
-| Language | C (bare-metal, freestanding) |
-| Toolchain | arm-none-eabi-gcc, Make |
-| Debug | Logic analyzer (e.g., Saleae Logic 8), USB protocol decoder |
-| Upload | ST-Link, DFU boot mode |
 
 ---
 
